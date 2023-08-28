@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 public class InternalService {
 
     public void internal() {
+
         log.info("call internal");
     }
 }
